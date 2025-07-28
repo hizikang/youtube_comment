@@ -1,0 +1,6 @@
+# 가상환경
+venv/
+__pycache__/
+
+# 폴더
+/models
