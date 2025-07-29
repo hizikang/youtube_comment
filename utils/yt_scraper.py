@@ -8,7 +8,7 @@ from webdriver_manager.chrome import ChromeDriverManager
 class YouTubeScraper:
     def __init__(self):
         options = webdriver.ChromeOptions()
-        options.add_argument("--headless")  # UI 없이 실행
+        options.add_argument("--headless")
         options.add_argument("--disable-gpu")
         options.add_argument("--no-sandbox")
         self.driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
