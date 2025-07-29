@@ -4,3 +4,5 @@ __pycache__/
 
 # 폴더
 /models
+
+__init__.py
