@@ -1,6 +1,9 @@
+fastapi
+uvicorn
 selenium
 pytest
 webdriver-manager
 joblib
 scikit-learn
 matplotlib
+pydantic
